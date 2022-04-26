@@ -73,11 +73,10 @@
     .main {
         max-width:100vw;
         min-height:100vh;
-        
         display:flex;
         align-content: center;
         flex-direction: column;
-        background-image: url('./assets/bg.png');
+        background-image: url('https://res.cloudinary.com/stand/image/upload/v1650943596/foodzinder/bg_mpu5mj.png');
     }
     .row {
         width:95%;

@@ -1,8 +1,9 @@
 <script>
-    import { fly } from 'svelte/transition'
-    import img1 from '../../assets/dish.png';
-    import img2 from '../../assets/dish1.png';
-    import img3 from '../../assets/dish2.png';
+    import { fly } from 'svelte/transition';
+    
+    const img1 = 'https://res.cloudinary.com/stand/image/upload/v1650944252/foodzinder/dish_arhdru.png';
+    const img2 = 'https://res.cloudinary.com/stand/image/upload/v1650943613/foodzinder/dish1_apwxhi.png';
+    const img3 = 'https://res.cloudinary.com/stand/image/upload/v1650943637/foodzinder/dish2_qvubsj.png';
 
     const images = [img1,img2,img3];
     $: active = 0;

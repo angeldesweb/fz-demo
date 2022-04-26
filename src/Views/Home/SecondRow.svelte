@@ -18,7 +18,7 @@
     .row {
         width:100%;
         height:20rem;
-        background-image: url('../../assets/bg-bottom.jpg');
+        background-image: url('https://res.cloudinary.com/stand/image/upload/v1650943654/foodzinder/bg-bottom_ibcrbu.jpg');
         background-size:cover;
         margin-bottom:0;
     }
